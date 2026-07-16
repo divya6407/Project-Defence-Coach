@@ -1,0 +1,12 @@
+# Node.js dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Production builds
+dist/
+build/
+
+# Secrets and environment variables
+.env
+.env.*

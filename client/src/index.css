@@ -1,0 +1,23 @@
+@import url('https://googleapis.com');
+@import "tailwindcss";
+
+@theme {
+  /* Mapping the exact hex codes from your design image */
+  --color-background: #fdfbf7;
+  /*pale orange*/
+  --color-background-secondary: #fbede4;
+
+  /* Teal / Dark Aqua */
+  --color-dark: #bd421f;
+  /*orange*/
+  --color-gray: #878484;
+  /* Light Aqua */
+  --color-button-secondary: #dda08f;
+  /*peach*/
+  --color-secondary: #136862;
+  /*green*/
+  --color-heading: #d47c66;
+
+  /* Registering your Fraunces Font */
+  --font-fraunces: "Fraunces", serif;
+}
