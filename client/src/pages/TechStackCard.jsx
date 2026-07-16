@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 
 const TechStackCard = ({ repoinfo }) => {
     const { backend, frontend, tools } = repoinfo.stackWise;
+    console.log(repoinfo);
     console.log(repoinfo.stackWise);
     return (
         <div>
