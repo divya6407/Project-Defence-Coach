@@ -6,9 +6,12 @@ import apiRoutes from './routes/analyze.js';
 dotenv.config();
 const app = express();
 const allowedOrigins = [
-    process.env.CLIENT_URL || 'http://localhost:5173',
+    'https://project-defence-coach.vercel.app',
+    'http://localhost:5173',
     'http://localhost:3001',
-];
+    process.env.CLIENT_URL
+].filter(Boolean); // Removes process.env.CLIENT_URL if it is undefined
+
 
 app.use(cors({
     origin: (origin, callback) => {
